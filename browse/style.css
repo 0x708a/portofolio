@@ -1,0 +1,35 @@
+body {
+    background: #2C2F33;
+    width: 100%;
+    max-height: 100vh;
+    color: white;
+}
+
+.title {
+    margin-left: 4rem;
+    margin-top: 2rem;
+    pointer-events: none;
+}
+
+.p1 {
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.p2 {
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.back {
+    position: absolute;
+    bottom: 2rem;
+    right: 4rem;
+    width: 5%;
+}
+
+.p1:hover,
+.p2:hover,
+.back:hover {
+    text-decoration: underline;
+}
