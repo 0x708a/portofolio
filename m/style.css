@@ -1,0 +1,23 @@
+body {
+    background: #2C2F33;
+    width: 100%;
+    max-height: 100vh;
+    color: white;
+}
+
+.title {
+    color: yellow;
+    position: absolute;
+    top: 35%;
+}
+
+.browse {
+    position: absolute;
+    top: 42%;
+    left: 22.5%;
+    min-width: 50%;
+}
+
+.browse:hover {
+    text-decoration: underline;
+}

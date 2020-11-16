@@ -1,0 +1,38 @@
+body {
+    background: #2C2F33;
+    width: 100%;
+    max-height: 100vh;
+    color: white;
+}
+
+.title {
+    margin-top: 3%;
+    margin-left: 7%;
+}
+
+.desc {
+    margin-left: 10%;
+    margin-top: 3%;
+    max-width: 80%;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.d {
+    margin-left: 13%;
+    margin-top: 3%;
+    min-width: 30%;
+}
+
+.back {
+    position: absolute;
+    bottom: 2%;
+    right: 4%;
+}
