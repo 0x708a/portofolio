@@ -3,13 +3,13 @@ const p2 = document.querySelector(".p2");
 const back = document.querySelector(".back");
 
 back.addEventListener("click", () => {
-    window.location.href = "/_web/";
+    window.location.href = "/";
 })
 
 p1.addEventListener("click", () => {
-    window.location.href = "/_web/browse/appProfiler/";
+    window.location.href = "/browse/appProfiler/";
 })
 
 p2.addEventListener("click", () => {
-    window.location.href = "/_web/browse/particleAnimation";
+    window.location.href = "/browse/particleAnimation";
 })
