@@ -11,19 +11,29 @@ body {
     pointer-events: none;
 }
 
-.p1 {
+.desc {
     margin-left: 5rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    max-width: 40%;
 }
 
-.p2 {
-    margin-left: 5rem;
-    margin-top: 1rem;
+.download {
+    margin-left: 10rem;
+    margin-top: 2%;
+    width: 10%;
 }
 
-.p3 {
-    margin-left: 5rem;
-    margin-top: 1rem;
+.download:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.d {
+    color: white;
+}
+
+.d:hover {
+    color: white;
 }
 
 .back {
@@ -33,8 +43,6 @@ body {
     width: 5%;
 }
 
-.p1:hover,
-.p2:hover,
 .back:hover {
     text-decoration: underline;
 }
