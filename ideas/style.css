@@ -1,0 +1,22 @@
+body {
+    background: #2C2F33;
+    width: 100%;
+    height: 100vh;
+}
+
+.submit {
+    position: absolute;
+    left: 3%;
+    min-width: 7%;
+    margin-top: 10px;
+}
+
+.back {
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
