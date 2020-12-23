@@ -22,3 +22,13 @@ body {
 .browse:hover {
     text-decoration: underline;
 }
+
+.ideas {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+}
+
+.ideas:hover {
+    text-decoration: underline;
+}
