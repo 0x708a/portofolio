@@ -6,6 +6,7 @@ body {
 
 .submit {
     position: absolute;
+    top: 3%;
     left: 3%;
     min-width: 7%;
     margin-top: 10px;
@@ -19,4 +20,8 @@ body {
 
 .back:hover {
     text-decoration: underline;
+}
+
+.idea {
+    min-width: 15%;
 }
