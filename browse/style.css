@@ -31,6 +31,11 @@ body {
     margin-top: 1rem;
 }
 
+.p5 {
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
 .back {
     position: absolute;
     bottom: 2rem;
@@ -40,6 +45,9 @@ body {
 
 .p1:hover,
 .p2:hover,
+.p3:hover,
+.p4:hover,
+.p5:hover,
 .back:hover {
     text-decoration: underline;
 }
