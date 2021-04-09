@@ -1,5 +1,10 @@
 const browse = document.querySelector(".browse");
+const ideas = document.querySelector(".ideas");
 
 browse.addEventListener("click", () => {
-    window.location.href = "/_web/m/browse/"
+    window.location.href = "/browse/"
+})
+
+ideas.addEventListener("click", () => {
+    window.location.href = "/ideas/"
 })
