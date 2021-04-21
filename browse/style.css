@@ -51,3 +51,12 @@ body {
 .back:hover {
     text-decoration: underline;
 }
+
+.pIcon{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    opacity: 20%;
+    user-select: none;
+    pointer-events: none;
+}
