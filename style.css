@@ -32,3 +32,14 @@ body {
 .ideas:hover {
     text-decoration: underline;
 }
+
+.pogchamp{
+    opacity: 15%;
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    color: #99AAB5;
+    font-size: 8rem;
+    cursor: crosshair;
+    user-select: none;
+}
