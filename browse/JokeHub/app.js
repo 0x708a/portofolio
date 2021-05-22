@@ -6,5 +6,6 @@ back.addEventListener("click", () => {
 })
 
 signup.addEventListener("click", () => {
-    document.querySelector(".thankyou").textContent = "Thank You!"
+    document.querySelector(".thankyou").textContent = "Thank You!";
+    wiindow.location.href = "/browse";
 })
