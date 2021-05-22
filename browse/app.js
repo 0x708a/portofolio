@@ -3,6 +3,7 @@ const p2 = document.querySelector(".p2");
 const p3 = document.querySelector(".p3");
 const p4 = document.querySelector(".p4");
 const p5 = document.querySelector(".p5");
+const p6 = document.querySelector(".p6");
 const back = document.querySelector(".back");
 
 back.addEventListener("click", () => {
@@ -27,4 +28,8 @@ p4.addEventListener("click", () => {
 
 p5.addEventListener("click", () => {
     window.location.href = "/browse/encryptor";
+})
+
+p6.addEventListener("click", () => {
+    window.location.href = "/browse/JokeHub";
 })
