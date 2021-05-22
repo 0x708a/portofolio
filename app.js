@@ -1,10 +1,35 @@
-const browse = document.querySelector(".browse");
-const ideas = document.querySelector(".ideas");
+const p1 = document.querySelector(".p1");
+const p2 = document.querySelector(".p2");
+const p3 = document.querySelector(".p3");
+const p4 = document.querySelector(".p4");
+const p5 = document.querySelector(".p5");
+const p6 = document.querySelector(".p6");
+const back = document.querySelector(".back");
 
-browse.addEventListener("click", () => {
-    window.location.href = "/browse/"
+back.addEventListener("click", () => {
+    window.location.href = "/";
 })
 
-ideas.addEventListener("click", () => {
-    window.location.href = "/ideas/"
+p1.addEventListener("click", () => {
+    window.location.href = "/browse/appProfiler/";
+})
+
+p2.addEventListener("click", () => {
+    window.location.href = "/browse/particleAnimation/";
+})
+
+p3.addEventListener("click", () => {
+    window.location.href = "/browse/threeJScube/";
+})
+
+p4.addEventListener("click", () => {
+    window.location.href = "/browse/neuralNetwork";
+})
+
+p5.addEventListener("click", () => {
+    window.location.href = "/browse/encryptor";
+})
+
+p6.addEventListener("click", () => {
+    window.location.href = "/browse/JokeHub";
 })
